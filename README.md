@@ -1,2 +1,2 @@
-# bootstrap-color-buttons
-Set of color buttons for bootstrap
+# Bootstrap color Buttons
+Set of colored buttons with 9 themes and more than 370 colors.

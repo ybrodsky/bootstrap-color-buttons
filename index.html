@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Themed Buttons</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Rock+Salt" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+      #main-section h1,
+      .page-header {
+        font-family: 'Rock Salt', cursive;
+      }
+
+      .page-header small {
+        display: block;
+        margin-top: 10px;
+        font-size: 50%;
+      }
+
+      .btn {
+        display: block;
+        margin-bottom: 20px;
+        min-width: 80%;
+        border-radius: 2px;
+      }
+
+      #main-section {
+        min-height: 100vh;
+        padding-top: 25vh;
+        background-color: #FE4042;
+        color: white;
+      }
+
+      #main-section h1 {
+        font-size: 4em;
+      }
+
+      .section {
+        /*min-height: 100vh;*/
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background-color: #f5f5f5
+      }
+
+      #explore {
+        margin-top: 30vh;
+      }
+
+      .white, .white:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section" id="fruits">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Fruits</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-lemon">
+              .btn-lemon
+            </button>
+            <button class="btn btn-banana">
+              .btn-banana
+            </button>
+            <button class="btn btn-melon">
+              .btn-melon
+            </button>
+            <button class="btn btn-orange">
+              .btn-orange
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-peach">
+              .btn-peach
+            </button>
+            <button class="btn btn-watermelon">
+              .btn-watermelon
+            </button>
+            <button class="btn btn-raspberry">
+              .btn-raspberry
+            </button>
+            <button class="btn btn-strawberry">
+              .btn-strawberry
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-apple">
+              .btn-apple
+            </button>
+            <button class="btn btn-cherry">
+              .btn-cherry
+            </button>
+            <button class="btn btn-kiwi">
+              .btn-kiwi
+            </button>
+            <button class="btn btn-lime">
+              .btn-lime
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-grape">
+              .btn-grape
+            </button>
+            <button class="btn btn-blueberry">
+              .btn-blueberry
+            </button>
+            <button class="btn btn-blackberry">
+              .btn-blackberry
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Metals</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-cobalt">
+              .btn-cobalt
+            </button>
+            <button class="btn btn-silver">
+              .btn-silver
+            </button>
+            <button class="btn btn-iridium">
+              .btn-iridium
+            </button>
+            <button class="btn btn-gallium">
+              .btn-gallium
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-chromium">
+              .btn-chromium
+            </button>
+            <button class="btn btn-zinc">
+              .btn-zinc
+            </button>
+            <button class="btn btn-lead">
+              .btn-lead
+            </button>
+            <button class="btn btn-nickel">
+              .btn-nickel
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-iron">
+              .btn-iron
+            </button>
+            <button class="btn btn-molybdenum">
+              .btn-molybdenum
+            </button>
+            <button class="btn btn-neodymium">
+              .btn-neodymium
+            </button>
+            <button class="btn btn-platinum">
+              .btn-platinum
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-uranium">
+              .btn-uranium
+            </button>
+            <button class="btn btn-gold">
+              .btn-gold
+            </button>
+            <button class="btn btn-copper">
+              .btn-copper
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Wood</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-birch">
+              .btn-birch
+            </button>
+            <button class="btn btn-cypress">
+              .btn-cypress
+            </button>
+            <button class="btn btn-bamboo">
+              .btn-bamboo
+            </button>
+            <button class="btn btn-redoak">
+              .btn-redoak
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-beech">
+              .btn-beech
+            </button>
+            <button class="btn btn-teak">
+              .btn-teak
+            </button>
+            <button class="btn btn-sapele">
+              .btn-sapele
+            </button>
+            <button class="btn btn-cork">
+              .btn-cork
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-jarrah">
+              .btn-jarrah
+            </button>
+            <button class="btn btn-bubinga">
+              .btn-bubinga
+            </button>
+            <button class="btn btn-pudauk">
+              .btn-pudauk
+            </button>
+            <button class="btn btn-purplehear">
+              .btn-purplehear
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-cumaru">
+              .btn-cumaru
+            </button>
+            <button class="btn btn-wenge">
+              .btn-wenge
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Flowers</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-pansy">
+              .btn-pansy
+            </button>
+            <button class="btn btn-daffodils">
+              .btn-daffodils
+            </button>
+            <button class="btn btn-sunflower">
+              .btn-sunflower
+            </button>
+            <button class="btn btn-calendula">
+              .btn-calendula
+            </button>
+            <button class="btn btn-canna">
+              .btn-canna
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-daisy">
+              .btn-daisy
+            </button>
+            <button class="btn btn-rose">
+              .btn-rose
+            </button>
+            <button class="btn btn-hibiscus">
+              .btn-hibiscus
+            </button>
+            <button class="btn btn-dianthus">
+              .btn-dianthus
+            </button>
+            <button class="btn btn-carnation">
+              .btn-carnation
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-tulip">
+              .btn-tulip
+            </button>
+            <button class="btn btn-peony">
+              .btn-peony
+            </button>
+            <button class="btn btn-lilac">
+              .btn-lilac
+            </button>
+            <button class="btn btn-dahlia">
+              .btn-dahlia
+            </button>
+            <button class="btn btn-dahlia">
+              .btn-dahlia
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-lotus">
+              .btn-lotus
+            </button>
+            <button class="btn btn-orchid">
+              .btn-orchid
+            </button>
+            <button class="btn btn-aster">
+              .btn-aster
+            </button>
+            <button class="btn btn-lavander">
+              .btn-lavander
+            </button>
+            <button class="btn btn-periwinkle">
+              .btn-periwinkle
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Rainbow</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-red">
+              btn-red
+            </button>
+            <button class="btn btn-orange-rainbow">
+              btn-orange-rainbow
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-yellow">
+              btn-yellow
+            </button>
+            <button class="btn btn-green">
+              btn-green
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-light-blue">
+              btn-light-blue
+            </button>
+            <button class="btn btn-blue">
+              btn-blue
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-purple">
+              btn-purple
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Minerals</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-sunset-fire-opal">
+              .btn-sunset-fire-opal
+            </button>
+            <button class="btn btn-crocoite-orange">
+              .btn-crocoite-orange
+            </button>
+            <button class="btn btn-crocoite">
+              .btn-crocoite
+            </button>
+            <button class="btn btn-rhodochrosite">
+              .btn-rhodochrosite
+            </button>
+            <button class="btn btn-rose-geode">
+              .btn-rose-geode
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-calcite">
+              .btn-calcite
+            </button>
+            <button class="btn btn-bismuth">
+              .btn-bismuth
+            </button>
+            <button class="btn btn-rhodochrosite-pink">
+              .btn-rhodochrosite-pink
+            </button>
+            <button class="btn btn-watermelon-tourmaline">
+              .btn-watermelon-tourmaline
+            </button>
+            <button class="btn btn-cobaltocalcite">
+              .btn-cobaltocalcite
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-geode">
+              .btn-geode
+            </button>
+            <button class="btn btn-malachite">
+              .btn-malachite
+            </button>
+            <button class="btn btn-ocean-opal">
+              .btn-ocean-opal
+            </button>
+            <button class="btn btn-luz-opal">
+              .btn-luz-opal
+            </button>
+            <button class="btn btn-azurite">
+              .btn-azurite
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-lightning-opal">
+              .btn-lightning-opal
+            </button>
+            <button class="btn btn-uvavorite">
+              .btn-uvavorite
+            </button>
+            <button class="btn btn-fossil-opal">
+              .btn-fossil-opal
+            </button>
+            <button class="btn btn-burmese-tourmaline">
+              .btn-burmese-tourmaline
+            </button>
+            <button class="btn btn-fluorite">
+              .btn-fluorite
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">
+              Solar System
+            </h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-sun">
+              .btn-sun
+            </button>
+            <button class="btn btn-mercury">
+              .btn-mercury
+            </button>
+            <button class="btn btn-venus">
+              .btn-venus
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-earth">
+              .btn-earth
+            </button>
+            <button class="btn btn-mars">
+              .btn-mars
+            </button>
+            <button class="btn btn-jupiter">
+              .btn-jupiter
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-saturn">
+              .btn-saturn
+            </button>
+            <button class="btn btn-uranus">
+              .btn-uranus
+            </button>
+            <button class="btn btn-neptune">
+              .btn-neptune
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-pluto">
+              .btn-pluto
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Gases</h2>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-sulfur">
+              .btn-sulfur
+            </button>
+            <button class="btn btn-chlorine">
+              .btn-chlorine
+            </button>
+            <button class="btn btn-chlorine-dioxide">
+              .btn-chlorine-dioxide
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-fluorine">
+              .btn-fluorine
+            </button>
+            <button class="btn btn-bromine-monochloride">
+              .btn-bromine-monochloride
+            </button>
+            <button class="btn btn-nitrogen-dioxide">
+              .btn-nitrogen-dioxide
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-iodine">
+              .btn-iodine
+            </button>
+            <button class="btn btn-chromyl-chloride">
+              .btn-chromyl-chloride
+            </button>
+            <button class="btn btn-bromine">
+              .btn-bromine
+            </button>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <button class="btn btn-ozone">
+              .btn-ozone
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h2 class="page-header text-center">Material design</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-red-50">
+              .btn-red-50
+            </button>
+            <button class="btn btn-red-100">
+              .btn-red-100
+            </button>
+            <button class="btn btn-red-200">
+              .btn-red-200
+            </button>
+            <button class="btn btn-red-300">
+              .btn-red-300
+            </button>
+            <button class="btn btn-red-400">
+              .btn-red-400
+            </button>
+            <button class="btn btn-red-500">
+              .btn-red-500
+            </button>
+            <button class="btn btn-red-600">
+              .btn-red-600
+            </button>
+            <button class="btn btn-red-700">
+              .btn-red-700
+            </button>
+            <button class="btn btn-red-800">
+              .btn-red-800
+            </button>
+            <button class="btn btn-red-900">
+              .btn-red-900
+            </button>
+            <button class="btn btn-red-A100">
+              .btn-red-A100
+            </button>
+            <button class="btn btn-red-A200">
+              .btn-red-A200
+            </button>
+            <button class="btn btn-red-A400">
+              .btn-red-A400
+            </button>
+            <button class="btn btn-red-A700">
+              .btn-red-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-pink-50">
+              .btn-pink-50
+            </button>
+            <button class="btn btn-pink-100">
+              .btn-pink-100
+            </button>
+            <button class="btn btn-pink-200">
+              .btn-pink-200
+            </button>
+            <button class="btn btn-pink-300">
+              .btn-pink-300
+            </button>
+            <button class="btn btn-pink-400">
+              .btn-pink-400
+            </button>
+            <button class="btn btn-pink-500">
+              .btn-pink-500
+            </button>
+            <button class="btn btn-pink-600">
+              .btn-pink-600
+            </button>
+            <button class="btn btn-pink-700">
+              .btn-pink-700
+            </button>
+            <button class="btn btn-pink-800">
+              .btn-pink-800
+            </button>
+            <button class="btn btn-pink-900">
+              .btn-pink-900
+            </button>
+            <button class="btn btn-pink-A100">
+              .btn-pink-A100
+            </button>
+            <button class="btn btn-pink-A200">
+              .btn-pink-A200
+            </button>
+            <button class="btn btn-pink-A400">
+              .btn-pink-A400
+            </button>
+            <button class="btn btn-pink-A700">
+              .btn-pink-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-purple-50">
+              .btn-purple-50
+            </button>
+            <button class="btn btn-purple-100">
+              .btn-purple-100
+            </button>
+            <button class="btn btn-purple-200">
+              .btn-purple-200
+            </button>
+            <button class="btn btn-purple-300">
+              .btn-purple-300
+            </button>
+            <button class="btn btn-purple-400">
+              .btn-purple-400
+            </button>
+            <button class="btn btn-purple-500">
+              .btn-purple-500
+            </button>
+            <button class="btn btn-purple-600">
+              .btn-purple-600
+            </button>
+            <button class="btn btn-purple-700">
+              .btn-purple-700
+            </button>
+            <button class="btn btn-purple-800">
+              .btn-purple-800
+            </button>
+            <button class="btn btn-purple-900">
+              .btn-purple-900
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-deep-purple-50">
+              .btn-deep-purple-50
+            </button>
+            <button class="btn btn-deep-purple-100">
+              .btn-deep-purple-100
+            </button>
+            <button class="btn btn-deep-purple-200">
+              .btn-deep-purple-200
+            </button>
+            <button class="btn btn-deep-purple-300">
+              .btn-deep-purple-300
+            </button>
+            <button class="btn btn-deep-purple-400">
+              .btn-deep-purple-400
+            </button>
+            <button class="btn btn-deep-purple-500">
+              .btn-deep-purple-500
+            </button>
+            <button class="btn btn-deep-purple-600">
+              .btn-deep-purple-600
+            </button>
+            <button class="btn btn-deep-purple-700">
+              .btn-deep-purple-700
+            </button>
+            <button class="btn btn-deep-purple-800">
+              .btn-deep-purple-800
+            </button>
+            <button class="btn btn-deep-purple-900">
+              .btn-deep-purple-900
+            </button>
+            <button class="btn btn-deep-purple-A100">
+              .btn-deep-purple-A100
+            </button>
+            <button class="btn btn-deep-purple-A200">
+              .btn-deep-purple-A200
+            </button>
+            <button class="btn btn-deep-purple-A400">
+              .btn-deep-purple-A400
+            </button>
+            <button class="btn btn-deep-purple-A700">
+              .btn-deep-purple-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-indigo-50">
+              .btn-indigo-50
+            </button>
+            <button class="btn btn-indigo-100">
+              .btn-indigo-100
+            </button>
+            <button class="btn btn-indigo-200">
+              .btn-indigo-200
+            </button>
+            <button class="btn btn-indigo-300">
+              .btn-indigo-300
+            </button>
+            <button class="btn btn-indigo-400">
+              .btn-indigo-400
+            </button>
+            <button class="btn btn-indigo-500">
+              .btn-indigo-500
+            </button>
+            <button class="btn btn-indigo-600">
+              .btn-indigo-600
+            </button>
+            <button class="btn btn-indigo-700">
+              .btn-indigo-700
+            </button>
+            <button class="btn btn-indigo-800">
+              .btn-indigo-800
+            </button>
+            <button class="btn btn-indigo-900">
+              .btn-indigo-900
+            </button>
+            <button class="btn btn-indigo-A100">
+              .btn-indigo-A100
+            </button>
+            <button class="btn btn-indigo-A200">
+              .btn-indigo-A200
+            </button>
+            <button class="btn btn-indigo-A400">
+              .btn-indigo-A400
+            </button>
+            <button class="btn btn-indigo-A700">
+              .btn-indigo-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-blue-50">
+              .btn-blue-50
+            </button>
+            <button class="btn btn-blue-100">
+              .btn-blue-100
+            </button>
+            <button class="btn btn-blue-200">
+              .btn-blue-200
+            </button>
+            <button class="btn btn-blue-300">
+              .btn-blue-300
+            </button>
+            <button class="btn btn-blue-400">
+              .btn-blue-400
+            </button>
+            <button class="btn btn-blue-500">
+              .btn-blue-500
+            </button>
+            <button class="btn btn-blue-600">
+              .btn-blue-600
+            </button>
+            <button class="btn btn-blue-700">
+              .btn-blue-700
+            </button>
+            <button class="btn btn-blue-800">
+              .btn-blue-800
+            </button>
+            <button class="btn btn-blue-900">
+              .btn-blue-900
+            </button>
+            <button class="btn btn-blue-A100">
+              .btn-blue-A100
+            </button>
+            <button class="btn btn-blue-A200">
+              .btn-blue-A200
+            </button>
+            <button class="btn btn-blue-A400">
+              .btn-blue-A400
+            </button>
+            <button class="btn btn-blue-A700">
+              .btn-blue-A700
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-light-blue-50">
+              .btn-light-blue-50
+            </button>
+            <button class="btn btn-light-blue-100">
+              .btn-light-blue-100
+            </button>
+            <button class="btn btn-light-blue-200">
+              .btn-light-blue-200
+            </button>
+            <button class="btn btn-light-blue-300">
+              .btn-light-blue-300
+            </button>
+            <button class="btn btn-light-blue-400">
+              .btn-light-blue-400
+            </button>
+            <button class="btn btn-light-blue-500">
+              .btn-light-blue-500
+            </button>
+            <button class="btn btn-light-blue-600">
+              .btn-light-blue-600
+            </button>
+            <button class="btn btn-light-blue-700">
+              .btn-light-blue-700
+            </button>
+            <button class="btn btn-light-blue-800">
+              .btn-light-blue-800
+            </button>
+            <button class="btn btn-light-blue-900">
+              .btn-light-blue-900
+            </button>
+            <button class="btn btn-light-blue-A100">
+              .btn-light-blue-A100
+            </button>
+            <button class="btn btn-light-blue-A200">
+              .btn-light-blue-A200
+            </button>
+            <button class="btn btn-light-blue-A400">
+              .btn-light-blue-A400
+            </button>
+            <button class="btn btn-light-blue-A700">
+              .btn-light-blue-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-cyan-50">
+              .btn-cyan-50
+            </button>
+            <button class="btn btn-cyan-100">
+              .btn-cyan-100
+            </button>
+            <button class="btn btn-cyan-200">
+              .btn-cyan-200
+            </button>
+            <button class="btn btn-cyan-300">
+              .btn-cyan-300
+            </button>
+            <button class="btn btn-cyan-400">
+              .btn-cyan-400
+            </button>
+            <button class="btn btn-cyan-500">
+              .btn-cyan-500
+            </button>
+            <button class="btn btn-cyan-600">
+              .btn-cyan-600
+            </button>
+            <button class="btn btn-cyan-700">
+              .btn-cyan-700
+            </button>
+            <button class="btn btn-cyan-800">
+              .btn-cyan-800
+            </button>
+            <button class="btn btn-cyan-900">
+              .btn-cyan-900
+            </button>
+            <button class="btn btn-cyan-A100">
+              .btn-cyan-A100
+            </button>
+            <button class="btn btn-cyan-A200">
+              .btn-cyan-A200
+            </button>
+            <button class="btn btn-cyan-A400">
+              .btn-cyan-A400
+            </button>
+            <button class="btn btn-cyan-A700">
+              .btn-cyan-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-teal-50">
+              .btn-teal-50
+            </button>
+            <button class="btn btn-teal-100">
+              .btn-teal-100
+            </button>
+            <button class="btn btn-teal-200">
+              .btn-teal-200
+            </button>
+            <button class="btn btn-teal-300">
+              .btn-teal-300
+            </button>
+            <button class="btn btn-teal-400">
+              .btn-teal-400
+            </button>
+            <button class="btn btn-teal-500">
+              .btn-teal-500
+            </button>
+            <button class="btn btn-teal-600">
+              .btn-teal-600
+            </button>
+            <button class="btn btn-teal-700">
+              .btn-teal-700
+            </button>
+            <button class="btn btn-teal-800">
+              .btn-teal-800
+            </button>
+            <button class="btn btn-teal-900">
+              .btn-teal-900
+            </button>
+            <button class="btn btn-teal-A100">
+              .btn-teal-A100
+            </button>
+            <button class="btn btn-teal-A200">
+              .btn-teal-A200
+            </button>
+            <button class="btn btn-teal-A400">
+              .btn-teal-A400
+            </button>
+            <button class="btn btn-teal-A700">
+              .btn-teal-A700
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-green-50">
+              .btn-green-50
+            </button>
+            <button class="btn btn-green-100">
+              .btn-green-100
+            </button>
+            <button class="btn btn-green-200">
+              .btn-green-200
+            </button>
+            <button class="btn btn-green-300">
+              .btn-green-300
+            </button>
+            <button class="btn btn-green-400">
+              .btn-green-400
+            </button>
+            <button class="btn btn-green-500">
+              .btn-green-500
+            </button>
+            <button class="btn btn-green-600">
+              .btn-green-600
+            </button>
+            <button class="btn btn-green-700">
+              .btn-green-700
+            </button>
+            <button class="btn btn-green-800">
+              .btn-green-800
+            </button>
+            <button class="btn btn-green-900">
+              .btn-green-900
+            </button>
+            <button class="btn btn-green-A100">
+              .btn-green-A100
+            </button>
+            <button class="btn btn-green-A200">
+              .btn-green-A200
+            </button>
+            <button class="btn btn-green-A400">
+              .btn-green-A400
+            </button>
+            <button class="btn btn-green-A700">
+              .btn-green-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-light-green-50">
+              .btn-light-green-50
+            </button>
+            <button class="btn btn-light-green-100">
+              .btn-light-green-100
+            </button>
+            <button class="btn btn-light-green-200">
+              .btn-light-green-200
+            </button>
+            <button class="btn btn-light-green-300">
+              .btn-light-green-300
+            </button>
+            <button class="btn btn-light-green-400">
+              .btn-light-green-400
+            </button>
+            <button class="btn btn-light-green-500">
+              .btn-light-green-500
+            </button>
+            <button class="btn btn-light-green-600">
+              .btn-light-green-600
+            </button>
+            <button class="btn btn-light-green-700">
+              .btn-light-green-700
+            </button>
+            <button class="btn btn-light-green-800">
+              .btn-light-green-800
+            </button>
+            <button class="btn btn-light-green-900">
+              .btn-light-green-900
+            </button>
+            <button class="btn btn-light-green-A100">
+              .btn-light-green-A100
+            </button>
+            <button class="btn btn-light-green-A200">
+              .btn-light-green-A200
+            </button>
+            <button class="btn btn-light-green-A400">
+              .btn-light-green-A400
+            </button>
+            <button class="btn btn-light-green-A700">
+              .btn-light-green-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-lime-50">
+              .btn-lime-50
+            </button>
+            <button class="btn btn-lime-100">
+              .btn-lime-100
+            </button>
+            <button class="btn btn-lime-200">
+              .btn-lime-200
+            </button>
+            <button class="btn btn-lime-300">
+              .btn-lime-300
+            </button>
+            <button class="btn btn-lime-400">
+              .btn-lime-400
+            </button>
+            <button class="btn btn-lime-500">
+              .btn-lime-500
+            </button>
+            <button class="btn btn-lime-600">
+              .btn-lime-600
+            </button>
+            <button class="btn btn-lime-700">
+              .btn-lime-700
+            </button>
+            <button class="btn btn-lime-800">
+              .btn-lime-800
+            </button>
+            <button class="btn btn-lime-900">
+              .btn-lime-900
+            </button>
+            <button class="btn btn-lime-A100">
+              .btn-lime-A100
+            </button>
+            <button class="btn btn-lime-A200">
+              .btn-lime-A200
+            </button>
+            <button class="btn btn-lime-A400">
+              .btn-lime-A400
+            </button>
+            <button class="btn btn-lime-A700">
+              .btn-lime-A700
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-yellow-50">
+              .btn-yellow-50
+            </button>
+            <button class="btn btn-yellow-100">
+              .btn-yellow-100
+            </button>
+            <button class="btn btn-yellow-200">
+              .btn-yellow-200
+            </button>
+            <button class="btn btn-yellow-300">
+              .btn-yellow-300
+            </button>
+            <button class="btn btn-yellow-400">
+              .btn-yellow-400
+            </button>
+            <button class="btn btn-yellow-500">
+              .btn-yellow-500
+            </button>
+            <button class="btn btn-yellow-600">
+              .btn-yellow-600
+            </button>
+            <button class="btn btn-yellow-700">
+              .btn-yellow-700
+            </button>
+            <button class="btn btn-yellow-800">
+              .btn-yellow-800
+            </button>
+            <button class="btn btn-yellow-900">
+              .btn-yellow-900
+            </button>
+            <button class="btn btn-yellow-A100">
+              .btn-yellow-A100
+            </button>
+            <button class="btn btn-yellow-A200">
+              .btn-yellow-A200
+            </button>
+            <button class="btn btn-yellow-A400">
+              .btn-yellow-A400
+            </button>
+            <button class="btn btn-yellow-A700">
+              .btn-yellow-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-amber-50">
+              .btn-amber-50
+            </button>
+            <button class="btn btn-amber-100">
+              .btn-amber-100
+            </button>
+            <button class="btn btn-amber-200">
+              .btn-amber-200
+            </button>
+            <button class="btn btn-amber-300">
+              .btn-amber-300
+            </button>
+            <button class="btn btn-amber-400">
+              .btn-amber-400
+            </button>
+            <button class="btn btn-amber-500">
+              .btn-amber-500
+            </button>
+            <button class="btn btn-amber-600">
+              .btn-amber-600
+            </button>
+            <button class="btn btn-amber-700">
+              .btn-amber-700
+            </button>
+            <button class="btn btn-amber-800">
+              .btn-amber-800
+            </button>
+            <button class="btn btn-amber-900">
+              .btn-amber-900
+            </button>
+            <button class="btn btn-amber-A100">
+              .btn-amber-A100
+            </button>
+            <button class="btn btn-amber-A200">
+              .btn-amber-A200
+            </button>
+            <button class="btn btn-amber-A400">
+              .btn-amber-A400
+            </button>
+            <button class="btn btn-amber-A700">
+              .btn-amber-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-orange-50">
+              .btn-orange-50
+            </button>
+            <button class="btn btn-orange-100">
+              .btn-orange-100
+            </button>
+            <button class="btn btn-orange-200">
+              .btn-orange-200
+            </button>
+            <button class="btn btn-orange-300">
+              .btn-orange-300
+            </button>
+            <button class="btn btn-orange-400">
+              .btn-orange-400
+            </button>
+            <button class="btn btn-orange-500">
+              .btn-orange-500
+            </button>
+            <button class="btn btn-orange-600">
+              .btn-orange-600
+            </button>
+            <button class="btn btn-orange-700">
+              .btn-orange-700
+            </button>
+            <button class="btn btn-orange-800">
+              .btn-orange-800
+            </button>
+            <button class="btn btn-orange-900">
+              .btn-orange-900
+            </button>
+            <button class="btn btn-orange-A100">
+              .btn-orange-A100
+            </button>
+            <button class="btn btn-orange-A200">
+              .btn-orange-A200
+            </button>
+            <button class="btn btn-orange-A400">
+              .btn-orange-A400
+            </button>
+            <button class="btn btn-orange-A700">
+              .btn-orange-A700
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-deep-orange-50">
+              .btn-deep-orange-50
+            </button>
+            <button class="btn btn-deep-orange-100">
+              .btn-deep-orange-100
+            </button>
+            <button class="btn btn-deep-orange-200">
+              .btn-deep-orange-200
+            </button>
+            <button class="btn btn-deep-orange-300">
+              .btn-deep-orange-300
+            </button>
+            <button class="btn btn-deep-orange-400">
+              .btn-deep-orange-400
+            </button>
+            <button class="btn btn-deep-orange-500">
+              .btn-deep-orange-500
+            </button>
+            <button class="btn btn-deep-orange-600">
+              .btn-deep-orange-600
+            </button>
+            <button class="btn btn-deep-orange-700">
+              .btn-deep-orange-700
+            </button>
+            <button class="btn btn-deep-orange-800">
+              .btn-deep-orange-800
+            </button>
+            <button class="btn btn-deep-orange-900">
+              .btn-deep-orange-900
+            </button>
+            <button class="btn btn-deep-orange-A100">
+              .btn-deep-orange-A100
+            </button>
+            <button class="btn btn-deep-orange-A200">
+              .btn-deep-orange-A200
+            </button>
+            <button class="btn btn-deep-orange-A400">
+              .btn-deep-orange-A400
+            </button>
+            <button class="btn btn-deep-orange-A700">
+              .btn-deep-orange-A700
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-brown-50">
+              .btn-brown-50
+            </button>
+            <button class="btn btn-brown-100">
+              .btn-brown-100
+            </button>
+            <button class="btn btn-brown-200">
+              .btn-brown-200
+            </button>
+            <button class="btn btn-brown-300">
+              .btn-brown-300
+            </button>
+            <button class="btn btn-brown-400">
+              .btn-brown-400
+            </button>
+            <button class="btn btn-brown-500">
+              .btn-brown-500
+            </button>
+            <button class="btn btn-brown-600">
+              .btn-brown-600
+            </button>
+            <button class="btn btn-brown-700">
+              .btn-brown-700
+            </button>
+            <button class="btn btn-brown-800">
+              .btn-brown-800
+            </button>
+            <button class="btn btn-brown-900">
+              .btn-brown-900
+            </button>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-gray-50">
+              .btn-gray-50
+            </button>
+            <button class="btn btn-gray-100">
+              .btn-gray-100
+            </button>
+            <button class="btn btn-gray-200">
+              .btn-gray-200
+            </button>
+            <button class="btn btn-gray-300">
+              .btn-gray-300
+            </button>
+            <button class="btn btn-gray-400">
+              .btn-gray-400
+            </button>
+            <button class="btn btn-gray-500">
+              .btn-gray-500
+            </button>
+            <button class="btn btn-gray-600">
+              .btn-gray-600
+            </button>
+            <button class="btn btn-gray-700">
+              .btn-gray-700
+            </button>
+            <button class="btn btn-gray-800">
+              .btn-gray-800
+            </button>
+            <button class="btn btn-gray-900">
+              .btn-gray-900
+            </button>
+          </div>
+        </div>
+        <hr/>
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <button class="btn btn-blue-gray-50">
+              .btn-blue-gray-50
+            </button>
+            <button class="btn btn-blue-gray-100">
+              .btn-blue-gray-100
+            </button>
+            <button class="btn btn-blue-gray-200">
+              .btn-blue-gray-200
+            </button>
+            <button class="btn btn-blue-gray-300">
+              .btn-blue-gray-300
+            </button>
+            <button class="btn btn-blue-gray-400">
+              .btn-blue-gray-400
+            </button>
+            <button class="btn btn-blue-gray-500">
+              .btn-blue-gray-500
+            </button>
+            <button class="btn btn-blue-gray-600">
+              .btn-blue-gray-600
+            </button>
+            <button class="btn btn-blue-gray-700">
+              .btn-blue-gray-700
+            </button>
+            <button class="btn btn-blue-gray-800">
+              .btn-blue-gray-800
+            </button>
+            <button class="btn btn-blue-gray-900">
+              .btn-blue-gray-900
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
